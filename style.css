@@ -1,0 +1,33 @@
+*{
+}
+
+#incbtn{
+    padding: 10px 15px;
+    align-items: center;
+}
+#rebtn{
+    padding: 10px 15px;
+}
+#decbtn{
+    padding: 10px 15px;
+}
+#p1{
+    text-align: center;
+    font-size: 5em;
+}
+div{
+    display: block;
+    text-align: center;
+}
+div > button{
+    background-color: rgb(107, 107, 240);
+    color: white;
+    font-weight: bold;
+    font-family: helvetica;
+    transition:background-color 0.25s ;
+    border-radius: 7px;
+    margin-right: 7px;
+}
+div>button:hover{
+    background-color: rgb(178, 178, 243);
+}
